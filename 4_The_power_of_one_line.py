@@ -21,7 +21,7 @@ for item in items.split(','):
     key, value = item.split(':')
     input_dict[key] = value
 
-# Call the switch_dict function to switch the keys and values in the dictionary
+# Call the switch_dict function to switch the keys and values
 result_dict = switch_dict(input_dict)
 
 # Print the output dictionary with each key-value pair on a separate line
