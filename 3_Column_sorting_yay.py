@@ -16,7 +16,7 @@ def sort_list_dicts(list_of_dicts, sort_key):
 # Prompt the user to enter the input list of dictionaries
 input_list = []
 while True:
-    item = input("Enter a dictionary item in the format 'k1:v1,k2:v2': ")
+    item = input("Enter a dictionary item in form 'fruit1:v1,color2:v2': ")
     if item == "":
         break
     input_dict = {}
